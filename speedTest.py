@@ -83,7 +83,7 @@ def main():
 
         if choice in ['y', 'yes']:
             filename = input(
-                "Enter filename (default: speedtest_log.txt): ").strip()
+                "Enter filename (default: speedtest_log.txt): ")
             if not filename:
                 filename = "speedtest_log.txt"
 
